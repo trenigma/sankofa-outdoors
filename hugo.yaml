@@ -1,0 +1,233 @@
+baseURL: "https://sankofaoutdoors.com/"
+languageCode: "en-us"
+title: "Sankofa Outdoors"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+canonifyURLs: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Sankofa Outdoors"
+  description: "Environmental justice through community-based, DEI-rooted education."
+  favicon: "/images/sankofa-logo.png"
+
+  useBootstrapCDN: false
+  animate: true
+
+  theme:
+    defaultTheme: "light"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Sankofa Outdoors"
+    brandLogo: "/images/sankofa-logo.png"
+    showBrandLogo: true
+    disableSearch: true
+    menus:
+      disableAbout: false
+      disableExperience: true
+      disableEducation: true
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Environmental Justice Educator, Speaker & Consultant"
+    title: "Khavin Debbs"
+    subtitle: "Connecting communities to the outdoors through DEI-rooted education."
+    content: "Based in Seattle, WA. Founder of Sankofa Outdoors — where environmental justice meets community-based learning."
+    image: /images/khavin-hero.jpg
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "View Services"
+      url: "#projects"
+      download: false
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/khavin-debbs-m-ed-a3442080/
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/kelevrahart
+        - icon: fab fa-youtube
+          url: https://www.youtube.com/watch?v=jfQkY_AAzsg
+
+  about:
+    enable: true
+    title: "About Khavin"
+    image: "/images/khavin-about.jpg"
+    content: |-
+      I was born and raised in Sacramento, CA. My mother was a teacher, and my father was a community activist and railroad conductor. This blend of perspectives instilled in me a passion for justice and a love for exploring and being outdoors.
+
+      I studied Early Childhood Education at Sacramento City College, and later worked at Mustard Seed School as an elementary school teacher to homeless children — where I also received my Montessori teacher training. I relocated to Seattle in 2013, where I completed my BA in Environmental Studies at The Evergreen State College and my Master's in Urban Environmental Education at Antioch University.
+
+      My goal is simple: to promote environmental justice through community-based, DEI-rooted education.
+    skills:
+      enable: true
+      title: "Areas of Expertise:"
+      items:
+        - "Environmental Justice"
+        - "DEI-Rooted Education"
+        - "Place-Based Learning"
+        - "Early Childhood Education (ECE)"
+        - "Montessori-Trained"
+        - "Urban Nature Photography"
+        - "Community Partnerships"
+        - "Implicit Bias Training"
+
+  experience:
+    enable: false
+
+  education:
+    enable: false
+
+  # Repurposing "achievements" section for Rates/Pricing
+  achievements:
+    enable: true
+    title: "Rates"
+    items:
+      - title: Speaking Engagements
+        content: "$500 per 30 mins. Non-profit rate: $400 per 30 mins."
+        url: "#contact"
+      - title: Consulting & Outdoor Workshops
+        content: "$200 per hour. Non-profit rate: $150 per hour."
+        url: "#contact"
+
+  # Seminars & Offerings as "projects"
+  projects:
+    enable: true
+    title: "Seminars & Offerings"
+    items:
+      - title: "#NatureSoWhite"
+        content: "Narrow definitions of nature, intergenerational trauma, and a lack of representation have all contributed to the narrative that BIPOC don't engage in outdoor spaces. We dive deep into these issues and explore solutions through Place-Based Education, ECE, and self-reflection."
+        badges:
+          - "DEI"
+          - "ECE"
+          - "Place-Based Education"
+        links:
+          - icon: fa fa-envelope
+            url: "#contact"
+
+      - title: "Get Out: Community-Based Environmental Learning"
+        content: "From our bodies to our homes to our communities — there is much to learn from the spaces we inhabit regularly. We reflect on our own journeys and learn how using students' everyday existence as the driving force can lead to teaching practices rooted in DEI and environmental justice."
+        badges:
+          - "DEI"
+          - "Community"
+          - "Environmental Justice"
+        links:
+          - icon: fa fa-envelope
+            url: "#contact"
+
+      - title: "Implicit Bias: Unpack That S**t"
+        content: "We learn what implicit bias is, how it manifests in early childhood education, and how we can check our own stereotypes — so we can encourage our peers and children to do the same."
+        badges:
+          - "Implicit Bias"
+          - "ECE"
+          - "Self-Reflection"
+        links:
+          - icon: fa fa-envelope
+            url: "#contact"
+
+      - title: "Environmental-Based Interagency Partnerships"
+        content: "Want to learn how to partner with other organizations? This training covers tactics and conversations to have before reaching out, as well as ways to sustain relationships with public entities and nonprofits alike."
+        badges:
+          - "Partnerships"
+          - "Nonprofits"
+          - "Strategy"
+        links:
+          - icon: fa fa-envelope
+            url: "#contact"
+
+      - title: "Broadening Our Environmental Perspective"
+        content: "Whenever we have a conversation about the environment, it tends to be siloed. This talk lays a new foundation for what nature and the environment entail — and why expanding that definition is imperative for achieving environmental justice."
+        badges:
+          - "Environmental Justice"
+          - "Inclusion"
+          - "Perspective"
+        links:
+          - icon: fa fa-envelope
+            url: "#contact"
+
+      - title: "Consulting & Photography Workshops"
+        content: "DEI and anti-racism consulting for outdoor, early childhood, and environmental-based curriculum. Also offering urban nature photography workshops — where attendees explore new perspectives and discover how nature and the built environment are one and the same."
+        badges:
+          - "Consulting"
+          - "Photography"
+          - "Urban Nature"
+        links:
+          - icon: fa fa-envelope
+            url: "#contact"
+
+  contact:
+    enable: true
+    title: "Get In Touch"
+    content: "Ready to bring environmental justice education to your organization? Reach out to discuss speaking engagements, workshops, or consulting."
+    btnName: "Email Khavin"
+    btnLink: "mailto:hello@sankofaoutdoors.com"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: "Recent Posts"
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      linkedin: https://www.linkedin.com/in/khavin-debbs-m-ed-a3442080/
+      instagram: https://www.instagram.com/kelevrahart
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog
+      url: /blogs
+      weight: 1
