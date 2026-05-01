@@ -57,7 +57,7 @@ params:
     title: "Khavin Debbs"
     subtitle: "Connecting communities to the outdoors through DEI-rooted education."
     content: "Based in Seattle, WA. Founder of Sankofa Outdoors — where environmental justice meets community-based learning."
-    image: /images/khavin-hero.jpg
+    image: images/me.png
     bottomImage:
       enable: true
     button:
