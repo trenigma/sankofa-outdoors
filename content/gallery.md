@@ -1,6 +1,7 @@
 ---
 title: "Gallery"
 description: "Urban nature photography by Khavin Debbs"
+tags: []
 images:
   - /images/forest_falls.JPG
   - /images/stump_lake.JPG
