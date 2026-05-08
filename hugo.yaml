@@ -226,8 +226,13 @@ params:
 
 menu:
   main:
+    - identifier: gallery
+      name: Gallery
+      title: Gallery
+      url: /gallery
+      weight: 2
     - identifier: blog
       name: Blog
       title: Blog
       url: /blogs
-      weight: 1
+      weight: 3
